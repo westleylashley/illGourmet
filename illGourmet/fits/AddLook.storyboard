@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OAu-ii-fJn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add a Look-->
+        <scene sceneID="DoL-AZ-0ya">
+            <objects>
+                <viewController id="OAu-ii-fJn" userLabel="Add a Look" customClass="AddLookFVC" customModule="fits" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zg4-D7-cSd"/>
+                        <viewControllerLayoutGuide type="bottom" id="M8U-cB-Tat"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JqP-r9-u8U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QC-GE-xHV">
+                                <rect key="frame" x="16" y="587" width="343" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.31372549019607843" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KH5-qc-by4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitPress:" destination="OAu-ii-fJn" eventType="touchUpInside" id="sQN-IA-CcN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5QC-GE-xHV" firstAttribute="trailing" secondItem="JqP-r9-u8U" secondAttribute="trailingMargin" id="BLS-tE-kFq"/>
+                            <constraint firstItem="5QC-GE-xHV" firstAttribute="leading" secondItem="JqP-r9-u8U" secondAttribute="leadingMargin" id="gHu-RR-l85"/>
+                            <constraint firstItem="M8U-cB-Tat" firstAttribute="top" secondItem="5QC-GE-xHV" secondAttribute="bottom" constant="20" id="nMg-Lf-jBQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add a Product" id="INM-XZ-3Ts"/>
+                    <connections>
+                        <outlet property="submitBtn" destination="5QC-GE-xHV" id="EYo-pI-rzi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y2t-Uq-wBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="-21.139430284857571"/>
+        </scene>
+        <!--Add a Product-->
+        <scene sceneID="cSE-Mv-064">
+            <objects>
+                <viewController storyboardIdentifier="AddProduct" id="APV-3Y-Clq" customClass="AddProductVCViewController" customModule="fits" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XGQ-KQ-dHw"/>
+                        <viewControllerLayoutGuide type="bottom" id="XOK-jU-vZl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Za-n9-pgD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-mG-Vx3">
+                                <rect key="frame" x="16" y="587" width="343" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.31372549019607843" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="qMW-TR-8Ec"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="savePress:" destination="APV-3Y-Clq" eventType="touchUpInside" id="z6N-Qu-GEm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vXc-mG-Vx3" firstAttribute="leading" secondItem="6Za-n9-pgD" secondAttribute="leadingMargin" id="FLr-8a-w8y"/>
+                            <constraint firstItem="XOK-jU-vZl" firstAttribute="top" secondItem="vXc-mG-Vx3" secondAttribute="bottom" constant="20" id="mAH-6X-cYI"/>
+                            <constraint firstItem="vXc-mG-Vx3" firstAttribute="trailing" secondItem="6Za-n9-pgD" secondAttribute="trailingMargin" id="wNy-dj-MaE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add a Product" id="9Kr-1r-3Vc"/>
+                    <connections>
+                        <outlet property="saveBtn" destination="vXc-mG-Vx3" id="J5Y-em-Lf4"/>
+                        <segue destination="TBu-XM-M1k" kind="unwind" identifier="unwindFromProductToLook" unwindAction="unwindFromProductToLookWithS:" id="URc-K0-MHO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AeE-Ry-EN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="TBu-XM-M1k" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1684" y="-21.139430284857571"/>
+        </scene>
+    </scenes>
+</document>

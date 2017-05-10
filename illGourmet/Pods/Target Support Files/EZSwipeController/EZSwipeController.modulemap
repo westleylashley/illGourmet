@@ -1,0 +1,6 @@
+framework module EZSwipeController {
+  umbrella header "EZSwipeController-umbrella.h"
+
+  export *
+  module * { export * }
+}
