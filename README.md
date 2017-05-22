@@ -1,6 +1,6 @@
 # illGourmet
 -----------
-<img src="/images/readme/growl-launch.png" width="200"><img src="/images/readme/growl-tap-list.png" width="200"><img src="/images/readme/growl-beer-match.png" width="200"><img src="/images/readme/growl-contact.png" width="200">
+<img src="/images/launch_view.png" width="200"><img src="/images/looks_view.png" width="200"><img src="/images/cart_view.png" width="200"><img src="/images/confirmation_view.png" width="200">
 
 Description
 ----------------
