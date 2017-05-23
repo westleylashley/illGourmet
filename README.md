@@ -20,4 +20,4 @@ Technologies
 + EZSwipeController
 + Firebase (Authorization, Core, Database)
 + AVFoundation
-+ ContentFul
++ Contentful
