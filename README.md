@@ -3,17 +3,20 @@
 
 Description
 ----------------
-A eCommerse app that allows where people can post photos of celebrities wearing multiple fashionable items, and provide links to buy them.
-
+A eCommerse app that allows people to purchase the fashions that celebrities wear. Users can also post photos of celebrities and links each fashion item.
 
 Features
 ----------------
-+ .
-+ .
++ Pay with Apple Pay
++ Add celebrity "looks"
++ Add fashion items and links to the items
++ Create a profile
++ Save favorite "looks"
 
 
-Issues/bugs
+Technologies
 ----------------
-+ .
-+ .
-+ .
++ Eureka
++ EZSwipeController
++ Firebase (Authorization, Core, Database)
++ AVFoundation
