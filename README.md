@@ -9,7 +9,7 @@ Features
 ----------------
 + Pay with Apple Pay
 + Add celebrity "looks"
-+ Add fashion items and links to the items
++ Add fashion items and links to the items to "looks"
 + Create a profile
 + Save favorite "looks"
 
