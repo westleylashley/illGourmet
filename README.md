@@ -3,7 +3,7 @@
 
 Description
 ----------------
-A eCommerse app that allows people to purchase the fashions that celebrities wear. Users can also post photos of celebrities and links each fashion item.
+A hybrid instagram-like and ecommerce app rolled into one. Customers can see and buy the clothes that celebrities are wearing.
 
 Features
 ----------------
@@ -16,8 +16,9 @@ Features
 
 Technologies
 ----------------
-+ Eureka
+'Swift 3', 'Xcode', 'Eureka', 
 + EZSwipeController
 + Firebase (Authorization, Core, Database)
 + AVFoundation
 + Contentful
+
