@@ -16,5 +16,5 @@ Features
 
 Technologies
 ----------------
-`Swift 3`, `Xcode`, `JSON`, `REST API`, `Eureka`, `EZSwipeController`, `Firebase Authorization', 'Firebase Core`, `Firebase Database`, `AVFoundation`, `Contentful`, `Cocoapods`
+`Swift 3`, `Xcode`, `JSON`, `REST API`, `Eureka`, `EZSwipeController`, `Firebase Authorization`, `Firebase Core`, `Firebase Database`, `AVFoundation`, `Contentful`, `Cocoapods`
 
